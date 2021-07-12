@@ -1,0 +1,236 @@
+footer {
+    width: 100%;
+    background-color: #666666;
+    color: white;
+    text-align: center;
+    padding: 25px 0px 25px 0px;
+}
+
+footer p {
+    margin-bottom: 0px;
+    font-weight: lighter;
+}
+
+.section-parallax-banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    /* Full height */
+    height: 100vh;
+    /* The image used */
+    background-image: url('../images/banner/00BANNER.jpg');
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section-timer {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 25vh;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background: #DDC190;
+}
+
+.section-info .icon {
+    width: 75px;
+    height: 75px;
+    margin: 25px 0px 25px 0px
+}
+
+.btn-ceremony {
+    background-color: #DDC190 !important;
+    border-color: #DDC190;
+}
+
+.btn-ceremony:hover {
+    background-color: #DDC190 !important;
+    border-color: #DDC190;
+}
+
+.section-gallery img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    background-size: contain;
+}
+
+.col-gallery {
+    padding: 10px;
+}
+
+.col-gallery:hover {
+    padding: 0px;
+}
+
+.section-gifts {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    padding: 25px 0px 25px 0px;
+    color: white;
+    background: #DDC190;
+}
+
+.section-gifts .icon {
+    width: 75px;
+    height: 75px;
+    margin: 25px 0px 25px 0px
+}
+
+.section-gifts button {
+    color: #DDC190;
+    background-color: #FFFFFF !important;
+    border-color: #FFFFFF;
+}
+
+.section-gifts button:hover {
+    color: #FFFFFF;
+    background-color: #DDC190 !important;
+    border-color: #FFFFFF;
+}
+
+.section-gifts button:focus {
+    color: #FFFFFF;
+    background-color: #DDC190 !important;
+    border-color: #FFFFFF;
+}
+
+.section-assistance {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    padding: 25px 0px 25px 0px;
+    background: #FFFFFF;
+}
+
+.section-assistance button {
+    background-color: #DDC190 !important;
+    border-color: #DDC190;
+}
+
+.section-assistance button:hover {
+    background-color: #DDC190 !important;
+    border-color: #DDC190;
+}
+
+.section-parallax-hashtag {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    /* Full height */
+    height: 50vh;
+    /* The image used */
+    background-image: url('../images/banner/01BANNER.jpg');
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section-music {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    padding: 25px 0px 25px 0px;
+    color: white;
+    background: #DDC190;
+}
+
+.section-music a {
+    color: #DDC190;
+    background-color: #FFFFFF !important;
+    border-color: #FFFFFF;
+}
+
+.section-music a:hover {
+    color: #FFFFFF;
+    background-color: #DDC190 !important;
+    border-color: #FFFFFF;
+}
+
+.section-music a:focus {
+    color: #FFFFFF;
+    background-color: #DDC190 !important;
+    border-color: #FFFFFF;
+}
+
+.section-gratitude {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    padding: 25px 0px 25px 0px;
+    color: #666666;
+    background: #e9e9e9;
+}
+
+.section-parallax-hashtag img {
+    width: 50px;
+    height: 50px;
+    margin: 0px 0px 10px 0px;
+}
+
+.section-about .icon {
+    width: 25px;
+    height: 25px;
+    margin: 0px 10px 0px 0px;
+}
+
+.section-about a {
+    width: 25px;
+    height: 25px;
+    margin: 0px 0px 0px 0px;
+    color: #666666;
+    text-decoration: none
+}
+
+.section-about a:hover {
+    color: #a0701c;
+}
+
+.section-about a:focus {
+    color: #a0701c;
+}
+
+.modal h2 {
+    color: #DDC190;
+}
+
+
+/* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
+
+@media only screen and (max-device-width: 1366px) {
+    .section-parallax-banner {
+        background-attachment: scroll;
+    }
+    .section-parallax-hashtag {
+        background-attachment: scroll;
+    }
+}
+
+
+/* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
+
+@media only screen and (max-device-width: 576px) {
+    .col-gallery:hover {
+        padding: 10px;
+    }
+}
