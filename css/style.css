@@ -1,3 +1,28 @@
+@font-face {
+    font-family: 'Stadella';
+    src: url(../fonts/Stadella.ttf);
+}
+@font-face {
+    font-family: 'Montserrat-Bold';
+    src: url(../fonts/Montserrat-Bold.ttf);
+}
+@font-face {
+    font-family: 'Montserrat-Medium';
+    src: url(../fonts/Montserrat-Medium.ttf);
+}
+@font-face {
+    font-family: 'Montserrat-Regular';
+    src: url(../fonts/Montserrat-Regular.ttf);
+}
+@font-face {
+    font-family: 'Montserrat-SemiBold';
+    src: url(../fonts/Montserrat-SemiBold.ttf);
+}
+@font-face {
+    font-family: 'Montserrat-Thin';
+    src: url(../fonts/Montserrat-Thin.ttf);
+}
+
 footer {
     width: 100%;
     background-color: #666666;
@@ -9,6 +34,14 @@ footer {
 footer p {
     margin-bottom: 0px;
     font-weight: lighter;
+}
+
+.fw-light {
+    font-family: Montserrat-Regular;
+}
+
+.fw-lighter {
+    font-family: Montserrat-Thin;
 }
 
 .section-parallax-banner {
@@ -28,6 +61,17 @@ footer p {
     background-size: cover;
 }
 
+.section-parallax-banner-title { 
+    font-family: Stadella;
+    font-size: 120px;
+    margin: 300px 0px 0px 0px;
+}
+
+.section-parallax-banner-sub-title { 
+    font-family: Montserrat-Thin;
+    font-size: 50px;
+}
+
 .section-timer {
     display: flex;
     flex-direction: column;
@@ -36,7 +80,15 @@ footer p {
     align-items: center;
     justify-content: center;
     color: white;
-    background: #DDC190;
+    background: #6E755A;
+}
+
+.section-timer h1 {
+    font-family: Montserrat-Thin;
+}
+
+.section-timer h3 {
+    font-family: Montserrat-Regular;
 }
 
 .section-info .icon {
@@ -46,13 +98,13 @@ footer p {
 }
 
 .btn-ceremony {
-    background-color: #DDC190 !important;
-    border-color: #DDC190;
+    background-color: #6E755A !important;
+    border-color: #6E755A;
 }
 
 .btn-ceremony:hover {
-    background-color: #DDC190 !important;
-    border-color: #DDC190;
+    background-color: #6E755A !important;
+    border-color: #6E755A;
 }
 
 .section-gallery img {
@@ -60,6 +112,7 @@ footer p {
     height: 100%;
     border-radius: 5px;
     background-size: contain;
+    object-fit: cover;
 }
 
 .col-gallery {
@@ -78,7 +131,7 @@ footer p {
     justify-content: center;
     padding: 25px 0px 25px 0px;
     color: white;
-    background: #DDC190;
+    background: #6E755A;
 }
 
 .section-gifts .icon {
@@ -88,20 +141,20 @@ footer p {
 }
 
 .section-gifts button {
-    color: #DDC190;
+    color: #6E755A;
     background-color: #FFFFFF !important;
     border-color: #FFFFFF;
 }
 
 .section-gifts button:hover {
     color: #FFFFFF;
-    background-color: #DDC190 !important;
+    background-color: #6E755A !important;
     border-color: #FFFFFF;
 }
 
 .section-gifts button:focus {
     color: #FFFFFF;
-    background-color: #DDC190 !important;
+    background-color: #6E755A !important;
     border-color: #FFFFFF;
 }
 
@@ -116,13 +169,13 @@ footer p {
 }
 
 .section-assistance button {
-    background-color: #DDC190 !important;
-    border-color: #DDC190;
+    background-color: #6E755A !important;
+    border-color: #6E755A;
 }
 
 .section-assistance button:hover {
-    background-color: #DDC190 !important;
-    border-color: #DDC190;
+    background-color: #6E755A !important;
+    border-color: #6E755A;
 }
 
 .section-parallax-hashtag {
@@ -141,34 +194,22 @@ footer p {
     background-repeat: no-repeat;
     background-size: cover;
 }
+.section-parallax-hashtag {
 
-.section-music {
-    display: flex;
-    flex-direction: column;
-    width: 100vw;
-    align-items: center;
-    justify-content: center;
-    padding: 25px 0px 25px 0px;
-    color: white;
-    background: #DDC190;
 }
 
-.section-music a {
-    color: #DDC190;
-    background-color: #FFFFFF !important;
-    border-color: #FFFFFF;
-}
-
-.section-music a:hover {
+.section-parallax-hashtag a {
+    margin: 0px 0px 0px 0px;
     color: #FFFFFF;
-    background-color: #DDC190 !important;
-    border-color: #FFFFFF;
+    text-decoration: none
 }
 
-.section-music a:focus {
+.section-parallax-hashtag a:hover {
     color: #FFFFFF;
-    background-color: #DDC190 !important;
-    border-color: #FFFFFF;
+}
+
+.section-parallax-hashtag a:focus {
+    color: #FFFFFF;
 }
 
 .section-gratitude {
@@ -178,7 +219,7 @@ footer p {
     align-items: center;
     justify-content: center;
     padding: 25px 0px 25px 0px;
-    color: #666666;
+    color: #6E755A;
     background: #e9e9e9;
 }
 
@@ -203,15 +244,31 @@ footer p {
 }
 
 .section-about a:hover {
-    color: #a0701c;
+    color: #677445;
 }
 
 .section-about a:focus {
-    color: #a0701c;
+    color: #677445;
 }
 
 .modal h2 {
-    color: #DDC190;
+    color: #6E755A;
+}
+
+.modal a {
+    width: 25px;
+    height: 25px;
+    margin: 0px 0px 0px 0px;
+    color: #666666;
+    text-decoration: none
+}
+
+.modal a:hover {
+    color: #677445;
+}
+
+.modal a:focus {
+    color: #677445;
 }
 
 
@@ -232,5 +289,11 @@ footer p {
 @media only screen and (max-device-width: 576px) {
     .col-gallery:hover {
         padding: 10px;
+    }
+    .section-parallax-banner-title { 
+        font-size: 60px;
+    }
+    .section-parallax-banner-sub-title { 
+        font-size: 20px;
     }
 }
