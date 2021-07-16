@@ -36,6 +36,25 @@ footer p {
     font-weight: lighter;
 }
 
+#grad {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80vw;
+    height: 50vw;
+    background-size: cover;
+    color: white;
+    border-radius: 10px;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0,0,0,1)), url(../images/banner/02BANNER.jpg);
+}
+
+#icon {
+    width: 80px;
+    height: 80px;
+    align-self: center;
+    justify-self: center;
+}
+
 .fw-light {
     font-family: Montserrat-Regular;
 }
@@ -123,7 +142,7 @@ footer p {
     padding: 0px;
 }
 
-.section-gifts {
+.section-assistance {
     display: flex;
     flex-direction: column;
     width: 100vw;
@@ -134,31 +153,25 @@ footer p {
     background: #6E755A;
 }
 
-.section-gifts .icon {
-    width: 75px;
-    height: 75px;
-    margin: 25px 0px 25px 0px
-}
-
-.section-gifts button {
+.section-assistance a {
     color: #6E755A;
     background-color: #FFFFFF !important;
     border-color: #FFFFFF;
 }
 
-.section-gifts button:hover {
+.section-assistance a:hover {
     color: #FFFFFF;
     background-color: #6E755A !important;
     border-color: #FFFFFF;
 }
 
-.section-gifts button:focus {
+.section-assistance a:focus {
     color: #FFFFFF;
     background-color: #6E755A !important;
     border-color: #FFFFFF;
 }
 
-.section-assistance {
+.section-gifts {
     display: flex;
     flex-direction: column;
     width: 100vw;
@@ -168,12 +181,18 @@ footer p {
     background: #FFFFFF;
 }
 
-.section-assistance button {
+.section-gifts .icon {
+    width: 75px;
+    height: 75px;
+    margin: 25px 0px 25px 0px
+}
+
+.section-gifts button {
     background-color: #6E755A !important;
     border-color: #6E755A;
 }
 
-.section-assistance button:hover {
+.section-gifts button:hover {
     background-color: #6E755A !important;
     border-color: #6E755A;
 }
